@@ -1,0 +1,512 @@
+# 🎮 MGaming - Next-Generation Gaming Website
+
+A cutting-edge, award-winning gaming website built with React, featuring stunning 3D animations, interactive elements, and modern web technologies. This project showcases the future of gaming through immersive user experiences and innovative design patterns.
+
+## ✨ Features
+
+### 🎥 Interactive Video Experience
+- **Dynamic Video Carousel**: Seamless transitions between hero videos with click-to-switch functionality
+- **3D Video Previews**: GSAP-powered mouse-tracking animations with depth and perspective
+- **Scroll-Triggered Animations**: Cinematic clip-path reveals and video frame transformations
+
+### 🎨 Modern UI/UX
+- **Glassmorphism Design**: Beautiful frosted glass effects with backdrop blur
+- **3D Tilt Effects**: Interactive bento grid cards with realistic depth simulation
+- **Gradient Animations**: Dynamic color transitions and text effects
+- **Responsive Layout**: Mobile-first design with seamless desktop scaling
+
+### 🎵 Audio Integration
+- **Background Music Control**: Toggle ambient gaming sounds with visual indicators
+- **Animated Audio Bars**: Pulsing visualization bars that respond to audio state
+- **Immersive Sound Design**: Looping background audio for enhanced atmosphere
+
+### 📱 Advanced Navigation
+- **Smart Navbar**: Auto-hide on scroll down, show on scroll up with floating effect
+- **Smooth Scrolling**: Anchor-based navigation with smooth scroll behavior
+- **Visual Feedback**: Hover animations and active state indicators
+
+### 🎯 Interactive Components
+- **Animated Titles**: Staggered letter animations with 3D transforms
+- **Contact Forms**: Modern form design with validation and status feedback
+- **Coming Soon Badges**: Radial gradient hover effects following cursor movement
+- **Loading Screens**: Elegant three-dot animation during asset loading
+
+## 🛠️ Tech Stack
+
+### Frontend Framework
+- **React 18.3.1** - Modern React with concurrent features
+- **Vite 5.4.10** - Lightning-fast development and build tool
+
+### Animation & Effects
+- **GSAP 3.12.5** - Professional-grade animation library
+- **@gsap/react 2.1.1** - React-specific GSAP hooks and utilities
+- **ScrollTrigger** - Scroll-based animation triggers
+
+### Styling & Design
+- **Tailwind CSS 3.4.14** - Utility-first CSS framework
+- **PostCSS 8.4.49** - CSS processing and optimization
+- **Custom Fonts** - Zentry, General Sans, Circular Web, and Robert font families
+
+### Icons & Assets
+- **React Icons 5.3.0** - Comprehensive icon library
+- **Custom Audio/Video** - High-quality gaming assets and background music
+
+### Development Tools
+- **ESLint 9.14.0** - Code linting with React and Tailwind rules
+- **Prettier 3.3.3** - Code formatting and consistency
+- **react-use 17.5.1** - Collection of essential React hooks
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn package manager
+
+### Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/kumarmanish562/MGaming.git
+cd mgaming
+```
+
+2. **Install dependencies**
+```bash
+npm install
+# or
+yarn install
+```
+
+3. **Start development server**
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+4. **Open in browser**
+```
+http://localhost:5173
+```
+
+### Build for Production
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+# or
+yarn preview
+```
+
+## 📁 Project Structure
+
+```
+mgaming/
+├── public/                  # Static assets
+│   ├── audio/              # Background music and sound effects
+│   ├── fonts/              # Custom font files (WOFF2)
+│   ├── img/                # Static images and graphics
+│   └── videos/             # Hero and feature videos
+├── src/
+│   ├── components/         # React components
+│   │   ├── About.jsx       # Scroll-triggered clip animation
+│   │   ├── AnimatedTitle.jsx # GSAP text animations
+│   │   ├── Button.jsx      # Reusable button with hover effects
+│   │   ├── Contact.jsx     # Contact form with validation
+│   │   ├── Features.jsx    # Interactive bento grid
+│   │   ├── Footer.jsx      # Comprehensive site footer
+│   │   ├── Hero.jsx        # Video carousel and main hero
+│   │   ├── Navbar.jsx      # Smart navigation with audio controls
+│   │   ├── Story.jsx       # 3D floating image interaction
+│   │   └── VideoPreview.jsx # 3D video hover effects
+│   ├── App.jsx             # Main app component
+│   ├── main.jsx            # React app entry point
+│   └── index.css           # Global styles and utilities
+├── tailwind.config.js      # Tailwind CSS configuration
+├── vite.config.js          # Vite build configuration
+└── package.json            # Project dependencies
+```
+
+## 🎨 Key Components
+
+### Hero Section (`src/components/Hero.jsx`)
+- **Video Carousel**: 4 rotating hero videos with smooth transitions
+- **Mini Video Preview**: Interactive circular preview with click-to-switch
+- **Loading Animation**: Three-dot bouncing loader during asset loading
+- **Scroll Animations**: GSAP clip-path transformations
+
+### Interactive Features (`src/components/Features.jsx`)
+- **Bento Tilt Effects**: 3D perspective transforms based on mouse position
+- **Coming Soon Buttons**: Radial gradient effects following cursor
+- **Video Backgrounds**: Auto-playing feature demonstrations
+- **Responsive Grid**: Adaptive layout for all screen sizes
+
+### Story Section (`src/components/Story.jsx`)
+- **3D Floating Image**: Mouse-tracking perspective transformations
+- **GSAP Animations**: Smooth tilt effects with proper cleanup
+- **SVG Filters**: Custom visual effects and enhancements
+- **Call-to-Action**: Integrated action buttons with descriptions
+
+### Smart Navigation (`src/components/Navbar.jsx`)
+- **Scroll Detection**: Auto-hide/show based on scroll direction
+- **Audio Controls**: Background music toggle with animated indicators
+- **Floating Effect**: Glassmorphism styling when not at page top
+- **Responsive Menu**: Collapsible navigation for mobile devices
+
+### About Section (`src/components/About.jsx`)
+- **Scroll-Triggered Clip Animation**: Cinematic reveal effect
+- **Pin/Unpin Behavior**: Element pinning during scroll interaction
+- **Clip Path Expansion**: Small circle to full viewport transformation
+- **Typography Hierarchy**: Brand messaging with animated titles
+
+### Contact Form (`src/components/Contact.jsx`)
+- **Interactive Form**: Real-time validation and status feedback
+- **Contact Methods**: Multiple ways to reach the team
+- **Gaming Statistics**: Community stats display
+- **Dark Theme**: Glassmorphism design with purple accents
+
+## 🎯 Performance Optimizations
+
+### Asset Loading
+- **Lazy Loading**: Images load only when needed
+- **Video Preloading**: Smart preloading of carousel videos
+- **Font Optimization**: WOFF2 format for minimal file sizes
+- **Image Optimization**: WebP format with fallbacks
+
+### Animation Performance
+- **GPU Acceleration**: CSS transforms for smooth 60fps animations
+- **GSAP Optimization**: Efficient animation cleanup and memory management
+- **Scroll Throttling**: Optimized scroll event handling
+- **Component Memoization**: React optimization patterns
+
+### Code Splitting
+- **Dynamic Imports**: Component-level code splitting
+- **Tree Shaking**: Unused code elimination
+- **Asset Bundling**: Optimized resource grouping
+- **Caching Strategies**: Browser caching optimization
+
+## 🎮 Gaming Features
+
+### Immersive Experience
+- **Dynamic Backgrounds**: Video-based storytelling
+- **Interactive Elements**: Hover states and click animations
+- **Audio Atmosphere**: Ambient gaming soundscapes
+- **Visual Effects**: Custom shaders and filters
+
+### User Engagement
+- **Scroll Storytelling**: Progressive content revelation
+- **Interactive Cards**: Tilt and hover micro-interactions
+- **Form Interactions**: Real-time validation and feedback
+- **Navigation Hints**: Visual cues for user guidance
+
+## 📱 Responsive Design
+
+### Breakpoints
+- **Mobile**: 320px - 768px (Touch-optimized interactions)
+- **Tablet**: 768px - 1024px (Hybrid navigation)
+- **Desktop**: 1024px+ (Full feature set)
+- **Large Screens**: 1400px+ (Enhanced spacing)
+
+### Mobile Optimizations
+- **Touch Gestures**: Optimized for mobile interactions
+- **Viewport Units**: Dynamic viewport height handling
+- **Performance**: Reduced animations on mobile
+- **Navigation**: Collapsible mobile menu
+
+## 🔧 Customization
+
+### Theming
+Modify colors in `tailwind.config.js`:
+```javascript
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        blue: {
+          50: "#DFDFF0",
+          300: "#4FB7DD",
+        },
+        violet: {
+          300: "#5724ff",
+        },
+        yellow: {
+          300: "#edff66",
+        },
+      }
+    }
+  }
+}
+```
+
+### Fonts
+Add custom fonts in `src/index.css`:
+```css
+@font-face {
+  font-family: "your-font";
+  src: url("/fonts/your-font.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+```
+
+### Animations
+Customize GSAP animations in component files:
+```javascript
+gsap.to(element, {
+  duration: 1,
+  ease: "power2.inOut",
+  rotateX: 10,
+  rotateY: 10,
+  transformPerspective: 500,
+});
+```
+
+## 🎨 Design Patterns
+
+### Component Architecture
+- **Reusable Components**: Button, AnimatedTitle, ImageClipBox
+- **Prop-Based Configuration**: Flexible component APIs
+- **Composition Over Inheritance**: React component patterns
+- **State Management**: Local state with hooks
+
+### Animation Patterns
+- **useGSAP Hook**: Proper cleanup and lifecycle management
+- **ScrollTrigger**: Scroll-based animation coordination
+- **Mouse Tracking**: Real-time cursor position effects
+- **Timeline Management**: Coordinated animation sequences
+
+### Styling Patterns
+- **Utility-First**: Tailwind CSS approach
+- **Component Classes**: Custom CSS for complex layouts
+- **Responsive Design**: Mobile-first methodology
+- **Design Tokens**: Consistent spacing and colors
+
+## 🧪 Testing
+
+### Manual Testing Checklist
+- [ ] Video carousel functionality
+- [ ] Mobile responsiveness
+- [ ] Audio controls work properly
+- [ ] Form validation and submission
+- [ ] Scroll animations perform smoothly
+- [ ] Cross-browser compatibility
+
+### Performance Testing
+- [ ] Lighthouse scores (90+ recommended)
+- [ ] Core Web Vitals compliance
+- [ ] Asset loading optimization
+- [ ] Animation frame rates (60fps target)
+
+## 🚀 Deployment
+
+### Static Site Hosting
+Recommended platforms:
+- **Vercel** (Recommended for React apps)
+- **Netlify** (Great for static sites)
+- **GitHub Pages** (Free for public repos)
+- **Firebase Hosting** (Google ecosystem)
+
+### Build Configuration
+```json
+{
+  "scripts": {
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && [deployment command]"
+  }
+}
+```
+
+### Environment Variables
+Create `.env` file for configuration:
+```
+VITE_API_URL=your_api_url
+VITE_ANALYTICS_ID=your_analytics_id
+```
+
+## 🔍 SEO Optimization
+
+### Meta Tags
+Update `index.html`:
+```html
+<meta name="description" content="MGaming - Next-generation gaming platform">
+<meta name="keywords" content="gaming, esports, tournaments, community">
+<meta property="og:title" content="MGaming">
+<meta property="og:description" content="Experience the future of gaming">
+<meta property="og:image" content="/img/og-image.jpg">
+```
+
+### Performance
+- **Image Optimization**: WebP format with proper sizing
+- **Font Loading**: Preload critical fonts
+- **Critical CSS**: Inline above-the-fold styles
+- **Lazy Loading**: Defer non-critical resources
+
+## 🛡️ Security
+
+### Best Practices
+- **Content Security Policy**: Restrict resource loading
+- **HTTPS Only**: Secure connection enforcement
+- **Input Validation**: Sanitize form inputs
+- **Dependency Updates**: Regular security patches
+
+## 🤝 Contributing
+
+### Getting Started
+1. **Fork the repository**
+2. **Create feature branch**: `git checkout -b feature/amazing-feature`
+3. **Commit changes**: `git commit -m 'Add amazing feature'`
+4. **Push to branch**: `git push origin feature/amazing-feature`
+5. **Open Pull Request**
+
+### Development Guidelines
+- Follow existing code style and patterns
+- Add comprehensive comments for complex animations
+- Test across different devices and browsers
+- Ensure accessibility compliance (WCAG 2.1)
+- Optimize for performance and SEO
+
+### Code Style
+- **JavaScript**: ES6+ with modern React patterns
+- **CSS**: Tailwind utilities with custom properties
+- **Comments**: JSDoc for functions, inline for complex logic
+- **Naming**: Descriptive and consistent naming conventions
+
+## 📚 Documentation
+
+### Component Documentation
+Each component includes:
+- **Purpose**: What the component does
+- **Props**: Available configuration options
+- **Examples**: Usage patterns and examples
+- **Performance**: Optimization notes
+
+### API Reference
+- **GSAP Animations**: Timeline and ScrollTrigger usage
+- **Tailwind Classes**: Custom utility documentation
+- **React Hooks**: Custom hook implementations
+- **Event Handlers**: Mouse and scroll event patterns
+
+## 🐛 Troubleshooting
+
+### Common Issues
+
+**Videos not loading**
+- Check file paths in `public/videos/`
+- Ensure video formats are web-compatible
+- Verify file sizes aren't too large
+
+**Animations not working**
+- Confirm GSAP is properly installed
+- Check for JavaScript errors in console
+- Verify element refs are attached
+
+**Mobile performance issues**
+- Reduce animation complexity on mobile
+- Optimize image sizes and formats
+- Consider disabling non-essential animations
+
+### Browser Support
+- **Chrome/Edge**: Full support
+- **Firefox**: Full support  
+- **Safari**: Full support (iOS 12+)
+- **Internet Explorer**: Not supported
+
+## 📊 Analytics
+
+### Performance Metrics
+- **First Contentful Paint**: < 2s
+- **Largest Contentful Paint**: < 3s
+- **Cumulative Layout Shift**: < 0.1
+- **First Input Delay**: < 100ms
+
+### User Engagement
+- **Bounce Rate**: Target < 40%
+- **Session Duration**: Target > 2 minutes
+- **Page Views per Session**: Target > 3
+- **Conversion Rate**: Track form submissions
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+```
+MIT License
+
+Copyright (c) 2024 MGaming Team
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## 🙏 Acknowledgments
+
+- **GSAP Team** - For incredible animation capabilities and comprehensive documentation
+- **Tailwind CSS** - For revolutionary utility-first CSS framework
+- **React Team** - For the amazing React ecosystem and hooks
+- **Vite Team** - For lightning-fast development experience
+- **React Icons** - For comprehensive and beautiful icon library
+- **Gaming Community** - For inspiration, feedback, and endless creativity
+- **Open Source Contributors** - For building the tools that make this possible
+
+## 📞 Contact & Support
+
+### Development Team
+**Lead Developer**: MGaming Team  
+**Email**: mk86215@gmail.com  
+**Location**: Bhilai, Chattisgarh, India  
+**Phone**: +91 933417XXXX
+
+### Project Links
+- **Live Demo**: [Deploy your project and add URL here]
+- **Repository**: [https://github.com/kumarmanish562/MGaming.git](https://github.com/kumarmanish562/MGaming.git)
+- **Documentation**: [Add documentation URL]
+- **Issue Tracker**: [GitHub Issues URL]
+
+### Community
+- **Discord**: [Add Discord server invite]
+- **Twitter**: [Add Twitter handle]
+- **Reddit**: [Add subreddit]
+- **YouTube**: [Add channel for tutorials]
+
+### Support
+For technical support or questions:
+1. Check the [Issues](https://github.com/kumarmanish562/MGaming.git/Issues) page
+2. Search existing discussions
+3. Create a new issue with detailed description
+4. Join our community Discord for real-time help
+
+---
+
+<div align="center">
+  <h3>🎮 Built with ❤️ for the Gaming Community 🎮</h3>
+  <p>© 2024 MGaming. All rights reserved.</p>
+  <p>
+    <a href="#top">⬆️ Back to Top</a> •
+    <a href="mailto:mk86215@gmail.com">📧 Contact</a> •
+    <a href="https://github.com/kumarmanish562/MGaming.git">⭐ Star on GitHub</a>
+  </p>
+</div>

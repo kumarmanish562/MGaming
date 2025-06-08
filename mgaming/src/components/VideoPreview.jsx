@@ -50,7 +50,6 @@ export const VideoPreview = ({ children }) => {
         duration: 1,
         ease: "power1.out",
       });
-
       // Reset content position
       gsap.to(contentRef.current, {
         x: 0,
@@ -60,7 +59,6 @@ export const VideoPreview = ({ children }) => {
       });
     }
   }, [isHovering]);
-
   return (
     <section
       ref={sectionRef}
@@ -84,5 +82,4 @@ export const VideoPreview = ({ children }) => {
     </section>
   );
 };
-
 export default VideoPreview;

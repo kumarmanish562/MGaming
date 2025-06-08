@@ -76,19 +76,15 @@ const About = () => {
       width: "100vw",        // Expand to full viewport width
       height: "100vh",       // Expand to full viewport height
       borderRadius: 0,       // Remove rounded corners for full rectangle
-      
       // Optional advanced properties
       // ease: "power2.inOut",  // Custom easing for more dramatic effect
       // transformOrigin: "center center", // Ensure expansion from center
     });
   });
-
   // ===== COMPONENT RENDER =====
-
   return (
     // Main about section with full screen dimensions
-    <div id="about" className="min-h-screen w-screen">
-      
+    <div id="about" className="min-h-screen w-screen">  
       {/* ===== CONTENT HEADER SECTION ===== */}
       {/* 
         Header content positioned above the animated clip section
@@ -100,7 +96,6 @@ const About = () => {
         - gap-5: Consistent spacing between child elements
       */}
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
-        
         {/* ===== SECTION IDENTIFIER ===== */}
         {/* 
           Small branding text that introduces the section
@@ -138,7 +133,6 @@ const About = () => {
         <div className="about-subtext">
           {/* Primary description - bold statement about the gaming experience */}
           <p>The Game of Games begins—your life, now an epic MMORPG</p>
-          
           {/* Secondary description - more detailed explanation with muted styling */}
           <p className="text-gray-500">
             Zentry unites every player from countless games and platforms, both
@@ -146,7 +140,6 @@ const About = () => {
           </p>
         </div>
       </div>
-
       {/* ===== SCROLL-TRIGGERED CLIP ANIMATION SECTION ===== */}
       {/* 
         Container for the clip path animation

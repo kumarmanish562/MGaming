@@ -27,7 +27,6 @@ export const VideoPreview = ({ children }) => {
         duration: 1,
         ease: "power1.out", // Easing for smooth transition
       });
-
       // Animate the content in the opposite direction (parallax effect)
       gsap.to(contentRef.current, {
         x: -xOffset,
@@ -37,7 +36,6 @@ export const VideoPreview = ({ children }) => {
       });
     }
   };
-
   // Reset animation when hover ends
   useEffect(() => {
     if (!isHovering) {

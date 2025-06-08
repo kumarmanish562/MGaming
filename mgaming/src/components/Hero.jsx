@@ -227,7 +227,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
       {/* ===== SECONDARY BRAND TITLE (BOTTOM RIGHT) ===== */}
       {/* Duplicate title for layering effect */}
       <h1 className="special-font hero-heading absolute bottom-5 right-5 text-gray-800/30">
@@ -236,5 +235,4 @@ const Hero = () => {
     </div>
   );
 };
-
 export default Hero;

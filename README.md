@@ -6,7 +6,7 @@ A modern and immersive gaming platform built with **React**, **Vite**, and **Tai
 
 ## 🔥 Live Preview
 
-Visit: [https://kumarmanish562.github.io/MGaming/](https://kumarmanish562.github.io/MGaming/g)
+Visit: [https://kumarmanish562.github.io/MGaming/](https://kumarmanish562.github.io/MGaming/)
 
 ---
 

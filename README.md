@@ -15,8 +15,6 @@ Visit: [https://kumarmanish562.github.io/MGaming/](https://kumarmanish562.github
 ### 🖥️ Home Page  
 ![Home Page](./mgaming/public/img/home.png)
 
-### 🎞️ Video Carousel  
-![Video Carousel](./mgaming/public/videos/videoh.mp4)
 
 
 

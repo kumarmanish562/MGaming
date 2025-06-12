@@ -108,7 +108,7 @@ const NavBar = () => {
           {/* ===== LEFT SECTION: Logo and Product Button ===== */}
           <div className="flex items-center gap-7">
             {/* Company logo with drop shadow */}
-            <img src="/img/logo.png" alt="logo" className="w-10 drop-shadow-lg" />
+            <img src="./img/logo.png" alt="logo" className="w-10 drop-shadow-lg" />
 
             {/* Product button - hidden on mobile, visible on desktop */}
             <Button

@@ -6,26 +6,25 @@ A modern and immersive gaming platform built with **React**, **Vite**, and **Tai
 
 ## 🔥 Live Preview
 
-Visit: [https://kumarmanish.github.io/MGaming](https://kumarmanish.github.io/MGaming)
+Visit: [https://kumarmanish562.github.io/MGaming/](https://kumarmanish562.github.io/MGaming/g)
 
 ---
 
 ## 📸 Screenshots
 
 ### 🖥️ Home Page  
-![Home Page](./assets/homepage.png)
+![Home Page](./mgaming/public/img/home.png)
 
 ### 🎞️ Video Carousel  
-![Video Carousel](./assets/video-carousel.png)
+![Video Carousel](./mgaming/public/videos/videoh.mp4)
 
-### 📱 Mobile Responsive Design  
-![Responsive Design](./assets/mobile-view.png)
+
 
 ### 📧 Contact Form  
-![Contact Form](./assets/contact-form.png)
+![Contact Form](./mgaming/public/img/contact.png)
 
 ### 🎮 3D Tilt Effect Showcase  
-![Tilt Effect](./assets/3d-tilt.png)
+![Tilt Effect](./mgaming/public/img/tite.png)
 
 ---
 
@@ -100,7 +99,7 @@ npm install gh-pages --save-dev
 
 # 3. Deploy
 npm run deploy
-Your site will be available at: https://kumarmanish562.github.io/MGaming
+Your site will be available at: https://kumarmanish562.github.io/MGaming/
 
 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.

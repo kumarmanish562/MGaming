@@ -155,13 +155,13 @@ const Contact = () => {
         {/* Left side decorative elements - hidden on mobile */}
         <div className="absolute -left-20 top-0 hidden h-full w-72 overflow-hidden sm:block lg:left-20 lg:w-96 opacity-30">
           <ImageClipBox
-            src="/img/contact-1.webp"
+            src={`${import.meta.env.BASE_URL}img/contact-1.webp`}
             clipClass="contact-clip-path-1"
             alt="Gaming character background decoration"
           />
           <ImageClipBox
-            src="/img/contact-2.webp"
-            clipClass="contact-clip-path-2 lg:translate-y-40 translate-y-60"
+            src={`${import.meta.env.BASE_URL}img/contact-2.webp`}
+            clipClass="contact-clip-path-2 lg:translate-y-40 translate-y-60`"
             alt="Gaming scene background decoration"
           />
         </div>
@@ -169,12 +169,12 @@ const Contact = () => {
         {/* Right side character images */}
         <div className="absolute -top-40 left-20 w-60 sm:top-1/2 md:left-auto md:right-10 lg:top-20 lg:w-80 opacity-40">
           <ImageClipBox
-            src="/img/swordman-partial.webp"
-            clipClass="absolute md:scale-125"
-            alt="Gaming character partial view"
-          />
+  src={`${import.meta.env.BASE_URL}img/swordman-partial.webp`}
+  clipClass="absolute md:scale-125"
+  alt="Gaming character partial view"
+/>
           <ImageClipBox
-            src="/img/swordman.webp"
+            src={`${import.meta.env.BASE_URL}img/swordman.webp`}  // Use BASE_URL
             clipClass="sword-man-clip-path md:scale-125"
             alt="Gaming character full view"
           />
